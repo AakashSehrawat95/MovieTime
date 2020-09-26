@@ -49,6 +49,3 @@ ___
 - Admins are responsible for creation of objects of type Cities, Theatres and Movies using the Django Admin Interface. 
 - Creation of a theatre automatically creates 4 objects (2d, 3d, 4dx, imax) in Hall class having that theatre as forein key.
 - Shows are what the user sees while booking a movie. Each show has its own set of seats in the form of a JSONField which are automatically generated during object creation.
-___
-## Justification
-The website has a high degree of complexity in both back-end and front-end design. Javascript has been used to great effect in the seat selection page to implement real-time querying for a pleasent user experience. The website tries to replicate a real world ticket booking application as closely as possible. A lot of effort has been put in the UI to make it visually appealing. Hence, I believe this project satisfies the distinctiveness and complexity requirements expected of a final project.
